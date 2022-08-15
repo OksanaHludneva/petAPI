@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet API</title>
+</head>
+<body>
+<h1>You are welcome to Pet app api</h1>
+<p>This is a rest API, with the following functionality</p>
+<ul>
+    <li>
+        <h3>
+            <i>POST</i>
+            <span>pet</span>
+            <small>
+                <i>apiUrl</i>/messages/
+            </small>
+        </h3>
+        <div>
+            <b>Request Body</b>
+            <br/>
+            <pre>
+    {
+        "petName": "Buffy",
+        "age": "2",
+        "type": "Dog",
+        "ownerName": "Lara Parker"
+    }
+                </pre>
+        </div>
+        <div>
+            <b>Response</b> <br/>
+            <b>Code: 201</b> <br/>
+            <b>Response Body:</b>
+            <pre>
+    {
+        "petName": "Buffy",
+        "age": "2",
+        "type": "Dog",
+        "ownerName": "Lara Parker"
+        "createdAt": "2022-08-15",
+        "updatedAt": "2022-08-16"
+    }
+                </pre>
+        </div>
+    </li>
+</ul>
+</body>
+</html>
